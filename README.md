@@ -29,10 +29,10 @@ LICENSE
 TODO
 ====
 
-Implement  usePeriodicity and noMultiply in 3D
+- Implement  usePeriodicity and noMultiply in 3D
 
-Files
-=====
+Details
+=======
 
 Arithmetic Kernel:
 common/mathematic.cpp
@@ -42,10 +42,8 @@ Main classes (data-structure) :
 common/color.cpp
 common/color.hpp
 
-2D
---
 
-Main classes:
+Main 2D classes:
 2D/image.cpp
 2D/image.hpp
 2D/paving.cpp
@@ -62,10 +60,9 @@ Transformation algorithm:
 Main : 
 2D/qat-2D.cpp
 
-3D
---
 
-Main classes:
+
+Main 3D classes:
 3D/image3d.cpp
 3D/image3d.hpp
 3D/paving3d.cpp
