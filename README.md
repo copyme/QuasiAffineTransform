@@ -9,6 +9,14 @@ The code follows the following papers (https://liris.cnrs.fr/david.coeurjolly/pu
 - Quasi-Affine Transformation in Higher Dimension , V. Blot and D. Coeurjolly, 15th IAPR International Workshop on Discrete Geometry for Computer Imagery, Montreal, Springer LNCS,2009.
 
 
+How to build it
+===============
+
+To compile this code, you would need:
+
+- cmake
+- graphicsmagick for 2D transforms
+- libvol/liblongvol for 3D transforms (https://liris.cnrs.fr/david.coeurjolly/code/simplevol.html) to be able to load ".vol" objects
 
 
 
