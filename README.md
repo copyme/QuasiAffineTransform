@@ -1,17 +1,38 @@
+Introduction
+============
+
 This package implements fast image transformations in dimension 2 and 3 with quasi-affine functions.
+
+The code follows the following papers (https://liris.cnrs.fr/david.coeurjolly/publications.html):
+
+- Quasi-Affine Transformation in 3-D: Theory and Algorithms , D. Coeurjolly, V. Blot, M.A. Jacob-DaCol, 13th International Workshop on Combinatorial Image Analysis, Mexico, Springer Verlag, LNCS, 2009.
+- Quasi-Affine Transformation in Higher Dimension , V. Blot and D. Coeurjolly, 15th IAPR International Workshop on Discrete Geometry for Computer Imagery, Montreal, Springer LNCS,2009.
+
+
+How to build it
+===============
+
+To compile this code, you would need:
+
+- cmake
+- graphicsmagick for 2D transforms
+- libvol/liblongvol for 3D transforms (https://liris.cnrs.fr/david.coeurjolly/code/simplevol.html) to be able to load ".vol" objects
+
+
 
 LICENSE
 =======
 
+- GPLv2, see LICENSE file
 
 
 TODO
 ====
 
-Implement  usePeriodicity and noMultiply in 3D
+- Implement  usePeriodicity and noMultiply in 3D
 
-Files
-=====
+Details
+=======
 
 Arithmetic Kernel:
 common/mathematic.cpp
@@ -21,10 +42,8 @@ Main classes (data-structure) :
 common/color.cpp
 common/color.hpp
 
-2D
---
 
-Main classes:
+Main 2D classes:
 2D/image.cpp
 2D/image.hpp
 2D/paving.cpp
@@ -41,10 +60,9 @@ Transformation algorithm:
 Main : 
 2D/qat-2D.cpp
 
-3D
---
 
-Main classes:
+
+Main 3D classes:
 3D/image3d.cpp
 3D/image3d.hpp
 3D/paving3d.cpp
