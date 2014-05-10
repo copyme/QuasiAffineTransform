@@ -29,7 +29,8 @@ LICENSE
 TODO
 ====
 
-- Implement  usePeriodicity and noMultiply in 3D
+- [ ] Implement  usePeriodicity and noMultiply in 3D
+- [ ] Translate comments to english
 
 Details
 =======
