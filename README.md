@@ -15,9 +15,8 @@ How to build it
 To compile this code, you would need:
 
 - cmake
-- Imagemagick for 2D transforms
-- libvol/liblongvol for 3D transforms (https://liris.cnrs.fr/david.coeurjolly/code/simplevol.html) to be able to load ".vol" objects
-
+- Imagemagick to import 2d image files to transform
+- libvol/liblongvol to import 3d vol files (https://liris.cnrs.fr/david.coeurjolly/code/simplevol.html)
 
 
 LICENSE
