@@ -1,8 +1,21 @@
+Introduction
+============
+
 This package implements fast image transformations in dimension 2 and 3 with quasi-affine functions.
+
+The code follows the following papers (https://liris.cnrs.fr/david.coeurjolly/publications.html):
+
+- Quasi-Affine Transformation in 3-D: Theory and Algorithms , D. Coeurjolly, V. Blot, M.A. Jacob-DaCol, 13th International Workshop on Combinatorial Image Analysis, Mexico, Springer Verlag, LNCS, 2009.
+- Quasi-Affine Transformation in Higher Dimension , V. Blot and D. Coeurjolly, 15th IAPR International Workshop on Discrete Geometry for Computer Imagery, Montreal, Springer LNCS,2009.
+
+
+
+
 
 LICENSE
 =======
 
+- GPLv2, see LICENSE file
 
 
 TODO
