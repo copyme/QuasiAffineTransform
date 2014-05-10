@@ -1,0 +1,475 @@
+2010-03-15 dcoeurjo
+	* Preparing stuff for arithmetic interpolation in the dilating case
+
+2009-05-20 03:06  vblot
+
+	* src/2D/qat-2D.cpp, src/2D/qat.cpp: memes bugfixes en 2D
+
+2009-05-20 02:58  vblot
+
+	* src/3D/qat-3D.cpp: bugfix PSNR
+
+2009-05-20 02:50  vblot
+
+	* src/3D/qat3d.cpp: bugfix
+
+2009-05-19 02:07  vblot
+
+	* src/3D/qat-3D.cpp: bugfixes
+
+2009-05-19 02:05  vblot
+
+	* src/2D/qat-2D.cpp, src/2D/qat.cpp, src/2D/qat.hpp,
+	  src/3D/qat-3D.cpp, src/3D/qat3d.cpp, src/3D/qat3d.hpp: bugfixes
+
+2009-05-14 07:43  dcoeurjo
+
+	* src/tools, src/tools/CMakeLists.txt, src/tools/QATPhantom2D.cpp:
+	  tools
+
+2009-04-16 15:54  dcoeurjo
+
+	* src/2D/CMakeLists.txt, src/3D/CMakeLists.txt, src/3D/qat-3D.cpp,
+	  src/3D/ter3d.cpp: rename
+
+2009-04-16 15:51  dcoeurjo
+
+	* src/2D/CMakeLists.txt, src/2D/qat-2D.cpp, src/2D/qat2D.cpp:
+	  rename
+
+2009-04-16 15:47  dcoeurjo
+
+	* src/2D/CMakeLists.txt, src/2D/qat2D.cpp, src/2D/ter.cpp: rename
+
+2009-04-16 15:42  dcoeurjo
+
+	* src/2D/CMakeLists.txt, src/2D/ter.cpp, src/3D/CMakeLists.txt,
+	  src/3D/image3d.cpp, src/3D/image3d.hpp, src/3D/matrix3x3.cpp,
+	  src/3D/matrix3x3.hpp, src/3D/qat3d.cpp, src/3D/ter3d.cpp,
+	  src/common/color.cpp, src/common/color.hpp: optimisation linear
+
+2009-04-16 08:48  dcoeurjo
+
+	* src/3D/qat3d.cpp, src/3D/qat3d.hpp, src/3D/ter3d.cpp: NN en 3D
+
+2009-04-16 08:16  dcoeurjo
+
+	* src/2D/qat.cpp, src/2D/ter.cpp, src/3D/image3d.hpp,
+	  src/3D/qat3d.cpp, src/3D/qat3d.hpp: cmdline modif
+
+2009-04-16 07:57  dcoeurjo
+
+	* src/2D/ter.cpp: cmdline modif
+
+2009-04-16 07:54  dcoeurjo
+
+	* src/2D/ter.cpp: cmdline modif
+
+2009-04-16 07:45  dcoeurjo
+
+	* src/2D/matrix2x2.cpp, src/2D/matrix2x2.hpp, src/2D/qat.cpp,
+	  src/2D/qat.hpp, src/2D/ter.cpp, src/3D/image3d.hpp,
+	  src/CMakeLists.txt: PNSR et NN pour interpolation
+
+2009-03-31 07:06  vblot
+
+	* sorties/cube_1_b.vol, sorties/cube_2_b.vol, sorties/cube_3_b.vol,
+	  sorties/fleur_1_b.bmp, sorties/fleur_2_b.bmp,
+	  sorties/fleur_3_b.bmp, src/2D/qat.cpp, src/3D/qat3d.cpp:
+	  correction bug BM + maj images de sortie
+
+2009-03-30 18:59  vblot
+
+	* src/2D/qat.cpp, src/3D/qat3d.cpp: correction bug backward mapping
+
+2009-03-30 09:49  vblot
+
+	* sorties, sorties/cube.vol, sorties/cube_1_b.vol,
+	  sorties/cube_1_p.vol, sorties/cube_2_b.vol, sorties/cube_2_p.vol,
+	  sorties/cube_3_b.vol, sorties/cube_3_p.vol, sorties/fleur.bmp,
+	  sorties/fleur_1_b.bmp, sorties/fleur_1_p.bmp,
+	  sorties/fleur_2_b.bmp, sorties/fleur_2_p.bmp,
+	  sorties/fleur_3_b.bmp, sorties/fleur_3_p.bmp: ajout des fichiers
+	  de sortie
+
+2009-03-25 10:07  vblot
+
+	* entrees/3D/3_dilatantebis: correction d'un fichier d'entrée
+
+2009-03-25 08:17  dcoeurjo
+
+	* entrees/3D/3_dilatantebis: 3dilatantebis
+
+2009-03-20 15:01  dcoeurjo
+
+	* entrees/1_Contractante_bis, entrees/2_Dilatante_bis,
+	  entrees/3_Inversible_bis,
+	  entrees/4_Rotation_pythagoricienne_2pisur33_bis,
+	  entrees/Rotation_50.txt, entrees/§, src/3D/image3d.cpp: code
+
+2009-03-12 09:06  dcoeurjo
+
+	* src/3D/image3d.cpp, src/3D/image3d.hpp, src/3D/qat3d.cpp,
+	  src/3D/qat3d.hpp, src/3D/ter3d.cpp: Fake Color en 3D
+
+2009-02-26 18:02  vblot
+
+	* entrees/3D/32dodge.050.vol, entrees/3D/32dodge.vol,
+	  src/3D/qat3d.cpp: optimisation du backward mapping en 3D
+
+2009-02-25 09:12  vblot
+
+	* entrees/1_Contractante, entrees/2D, entrees/2D/1_Contractante,
+	  entrees/2D/2_Dilatante, entrees/2D/3_Inversible,
+	  entrees/2D/4_Rotation_pythagoricienne_2pisur33,
+	  entrees/2D/5_Equivolume_rotation_53,1,
+	  entrees/2D/6_Bug_points_noirs, entrees/2D/fleur.png,
+	  entrees/2_Dilatante, entrees/3D, entrees/3D/1_contractante,
+	  entrees/3D/2_isom, entrees/3D/32dodge.050.vol,
+	  entrees/3D/3_dilatante, entrees/3_Inversible,
+	  entrees/4_Rotation_pythagoricienne_2pisur33,
+	  entrees/5_Equivolume_rotation_53,1, entrees/6_Bug_points_noirs,
+	  fleur.png, src/2D/qat.cpp: Amelioration BackwardMapping 2D
+
+2008-09-24 08:57  dcoeurjo
+
+	* src/2D/image.cpp, src/2D/image.hpp, src/2D/qat.cpp,
+	  src/2D/qat.hpp, src/2D/ter.cpp, src/3D/qat3d.cpp,
+	  src/3D/ter3d.cpp: Ajout fakeColor en 2D et reorganisation params
+	  dans 3D
+
+2008-09-18 12:45  vblot
+
+	* src/2D/ter.cpp, src/3D/ter3d.cpp: amelioration du parser
+
+2008-07-20 16:29  vblot
+
+	* src/3D/CMakeLists.txt, src/3D/ter3d.cpp: TCLAP 3D
+
+2008-07-19 09:16  dcoeurjo
+
+	* src/2D/ter.cpp: Typo
+
+2008-07-19 09:08  dcoeurjo
+
+	* src/2D/CMakeLists.txt, src/2D/ter.cpp, src/tclap,
+	  src/tclap/AUTHORS, src/tclap/Arg.h, src/tclap/ArgException.h,
+	  src/tclap/COPYING, src/tclap/ChangeLog, src/tclap/CmdLine.h,
+	  src/tclap/CmdLineInterface.h, src/tclap/CmdLineOutput.h,
+	  src/tclap/Constraint.h, src/tclap/DocBookOutput.h,
+	  src/tclap/HelpVisitor.h, src/tclap/IgnoreRestVisitor.h,
+	  src/tclap/Makefile.am, src/tclap/Makefile.in,
+	  src/tclap/MultiArg.h, src/tclap/MultiSwitchArg.h, src/tclap/NEWS,
+	  src/tclap/OptionalUnlabeledTracker.h, src/tclap/README,
+	  src/tclap/StdOutput.h, src/tclap/SwitchArg.h,
+	  src/tclap/UnlabeledMultiArg.h, src/tclap/UnlabeledValueArg.h,
+	  src/tclap/ValueArg.h, src/tclap/ValuesConstraint.h,
+	  src/tclap/VersionVisitor.h, src/tclap/Visitor.h,
+	  src/tclap/XorHandler.h: Add TCLAP Templates to parse commandline
+	  (modif. propagated in ter2D)
+
+2008-07-18 10:31  vblot
+
+	* src/3D/qat3d.cpp: Bugfix 3D
+
+2008-07-07 09:18  vblot
+
+	* ChangeLog: mise a jour ChangeLog
+
+2008-07-07 09:10  vblot
+
+	* src/2D/qat.cpp, src/2D/qat.hpp, src/2D/ter.cpp, src/3D/qat3d.cpp,
+	  src/3D/qat3d.hpp, src/3D/ter3d.cpp, src/common/color.cpp,
+	  src/common/color.hpp: implementation backward mapping
+
+2008-07-07 07:14  dcoeurjo
+
+	* CMakeLists.txt: CMakeList: cmake_minimum_required set to 2.4
+
+2008-07-05 14:39  vblot
+
+	* src/3D/qat3d.cpp: bugfix
+
+2008-07-04 13:43  vblot
+
+	* CMakeLists.txt, ChangeLog, README, src/2D/CMakeLists.txt,
+	  src/2D/matrix2x2.cpp, src/2D/matrix2x2.hpp, src/2D/ter.cpp,
+	  src/2D/vector2d.cpp, src/3D/CMakeLists.txt, src/3D/paving3d.cpp,
+	  src/3D/paving3d.hpp, src/3D/vector3d.cpp, src/3D/vector3d.hpp:
+	  bugfix doxygen + maj README et ChangeLog
+
+2008-07-04 12:41  vblot
+
+	* src/2D/matrix2x2.cpp, src/2D/matrix2x2.hpp, src/2D/qat.cpp,
+	  src/2D/qat.hpp, src/2D/ter.cpp, src/2D/vector2d.cpp,
+	  src/2D/vector2d.hpp, src/3D/qat3d.cpp: nouvelles options 2D +
+	  clarification du code
+
+2008-07-03 16:02  vblot
+
+	* src/2D/CMakeLists.txt, src/2D/matrix2x2.cpp,
+	  src/2D/matrix2x2.hpp, src/2D/paving.hpp, src/2D/qat.cpp,
+	  src/2D/qat.hpp, src/2D/ter.cpp, src/2D/vector2d.cpp,
+	  src/2D/vector2d.hpp, src/3D/CMakeLists.txt, src/3D/qat3d.cpp,
+	  src/3D/ter3d.cpp, src/common/mathematic.cpp,
+	  src/common/mathematic.hpp, src/common/matrix2x2.cpp,
+	  src/common/matrix2x2.hpp, src/common/vector2d.cpp,
+	  src/common/vector2d.hpp: reorganisation du code
+
+2008-07-03 15:32  vblot
+
+	* src/3D/qat3d.cpp, src/3D/qat3d.hpp, src/3D/ter3d.cpp: raz
+	  nomultiply
+
+2008-07-03 12:57  vblot
+
+	* src/3D/qat3d.cpp, src/3D/vector3d.cpp, src/3D/vector3d.hpp:
+	  bugfix 3D
+
+2008-07-03 09:16  vblot
+
+	* src/3D/qat3d.cpp, src/3D/qat3d.hpp, src/3D/ter3d.cpp:
+	  implementation periodicite 3D
+
+2008-07-02 14:17  vblot
+
+	* src/2D/qat.cpp, src/3D/qat3d.cpp, src/3D/qat3d.hpp,
+	  src/3D/ter3d.cpp: premiere implementation de la periodicite
+
+2008-07-02 10:42  vblot
+
+	* src/2D/image.cpp, src/2D/image.hpp, src/2D/qat.cpp,
+	  src/2D/qat.hpp, src/3D/matrix3x3.cpp, src/3D/matrix3x3.hpp,
+	  src/3D/paving3d.cpp, src/3D/paving3d.hpp, src/3D/qat3d.cpp,
+	  src/3D/qat3d.hpp, src/3D/vector3d.cpp, src/3D/vector3d.hpp,
+	  src/common/mathematic.cpp, src/common/matrix2x2.cpp,
+	  src/common/matrix2x2.hpp: implementation 3D sans periodicite
+
+2008-06-26 12:14  vblot
+
+	* ChangeLog: mise a jour changelog
+
+2008-06-26 11:41  vblot
+
+	* README: mise a jour README
+
+2008-06-26 11:35  vblot
+
+	* src/common/mathematic.cpp: annulation dune ancienne modif
+
+2008-06-26 11:29  vblot
+
+	* src/3D/matrix3x3.cpp, src/3D/matrix3x3.hpp, src/3D/qat3d.cpp:
+	  gestion de la translation
+
+2008-06-26 10:07  vblot
+
+	* src/3D/qat3d.cpp: bugfix 3D
+
+2008-06-25 18:38  vblot
+
+	* src/3D/qat3d.cpp: bugfix 3D
+
+2008-06-25 10:26  vblot
+
+	* src/3D/image3d.cpp, src/3D/matrix3x3.cpp, src/3D/matrix3x3.hpp,
+	  src/3D/qat3d.cpp, src/3D/vector3d.cpp, src/3D/vector3d.hpp:
+	  bugfix 3D
+
+2008-06-24 16:32  vblot
+
+	* src/3D/CMakeLists.txt, src/3D/qat3d.cpp, src/3D/qat3d.hpp,
+	  src/3D/ter3D.cpp, src/3D/ter3d.cpp, src/common/mathematic.cpp:
+	  debut implementation 3D
+
+2008-06-24 13:50  vblot
+
+	* CMakeLists.txt, FindLongvol.cmake, FindVol.cmake,
+	  src/2D/CMakeLists.txt, src/2D/image.hpp, src/2D/matrix2x2.cpp,
+	  src/2D/matrix2x2.hpp, src/2D/paving.hpp, src/2D/qat.hpp,
+	  src/2D/ter.cpp, src/2D/vector2d.cpp, src/2D/vector2d.hpp,
+	  src/3D/CMakeLists.txt, src/3D/image3d.hpp, src/3D/ter3D.cpp,
+	  src/CMakeLists.txt, src/color.cpp, src/color.hpp, src/common,
+	  src/common/color.cpp, src/common/color.hpp,
+	  src/common/mathematic.cpp, src/common/mathematic.hpp,
+	  src/common/matrix2x2.cpp, src/common/matrix2x2.hpp,
+	  src/common/vector2d.cpp, src/common/vector2d.hpp,
+	  src/mathematic.cpp, src/mathematic.hpp: mise a jour cmake
+
+2008-06-24 12:47  vblot
+
+	* color.cpp, color.hpp, image.cpp, image.hpp, image3d.cpp,
+	  image3d.hpp, mathematic.cpp, mathematic.hpp, matrix2x2.cpp,
+	  matrix2x2.hpp, matrix3x3.cpp, matrix3x3.hpp, paving.cpp,
+	  paving.hpp, paving3d.cpp, paving3d.hpp, qat.cpp, qat.hpp, src,
+	  src/2D, src/2D/image.cpp, src/2D/image.hpp, src/2D/matrix2x2.cpp,
+	  src/2D/matrix2x2.hpp, src/2D/paving.cpp, src/2D/paving.hpp,
+	  src/2D/qat.cpp, src/2D/qat.hpp, src/2D/ter.cpp,
+	  src/2D/vector2d.cpp, src/2D/vector2d.hpp, src/3D,
+	  src/3D/image3d.cpp, src/3D/image3d.hpp, src/3D/matrix3x3.cpp,
+	  src/3D/matrix3x3.hpp, src/3D/paving3d.cpp, src/3D/paving3d.hpp,
+	  src/3D/vector3d.cpp, src/3D/vector3d.hpp, src/color.cpp,
+	  src/color.hpp, src/mathematic.cpp, src/mathematic.hpp, ter.cpp,
+	  vector2d.cpp, vector2d.hpp, vector3d.cpp, vector3d.hpp:
+	  reorganisation des repertoires
+
+2008-06-24 12:43  vblot
+
+	* image3d.cpp, image3d.hpp, matrix3x3.cpp, matrix3x3.hpp,
+	  paving3d.cpp, paving3d.hpp, vector3d.cpp, vector3d.hpp: ajout de
+	  la 3D
+
+2008-06-23 07:53  vblot
+
+	* image.cpp: commentaire doxygen
+
+2008-06-20 14:17  vblot
+
+	* image.cpp, image.hpp: meilleure gestion des dimensions de l'image
+
+2008-06-20 14:12  vblot
+
+	* image.cpp, image.hpp, paving.cpp, paving.hpp, qat.cpp: gestion
+	  differente de la translation des paves
+
+2008-06-20 13:50  vblot
+
+	* image.cpp, image.hpp: gestion plus rapide des images
+
+2008-06-19 14:02  vblot
+
+	* CMakeLists.txt, ChangeLog, README, color.cpp, color.hpp,
+	  image.cpp, image.hpp, mathematic.cpp, mathematic.hpp,
+	  matrix2x2.cpp, matrix2x2.hpp, paving.cpp, paving.hpp, point.cpp,
+	  point.hpp, qat.cpp, qat.hpp, ter.cpp, vector2d.cpp, vector2d.hpp:
+	  commentaires doxygen + implementation periodicite et bouding rect
+	  en meme temps
+
+2008-06-18 14:26  vblot
+
+	* README: mise a jour README
+
+2008-06-18 13:25  vblot
+
+	* CMakeLists.txt, color.cpp, color.hpp, entrees/1_Contractante,
+	  entrees/2_Dilatante, entrees/3_Inversible,
+	  entrees/4_Rotation_pythagoricienne_2pisur33,
+	  entrees/5_Equivolume_rotation_53,1, entrees/6_Bug_points_noirs,
+	  image.cpp, image.hpp, matrix2x2.cpp, matrix2x2.hpp, paving.cpp,
+	  paving.hpp, qat.cpp, qat.hpp, ter.cpp, vector2d.cpp,
+	  vector2d.hpp: reorganisation du code
+
+2008-06-17 14:50  vblot
+
+	* README: mise a jour README
+
+2008-06-17 14:49  vblot
+
+	* ChangeLog, Makefile_LINUX_OLD, qat.cpp, qat.hpp: implementation
+	  de la periodicite des paves
+
+2008-06-17 10:49  vblot
+
+	* ChangeLog, README, matrix2x2.cpp, matrix2x2.hpp, paving.cpp,
+	  paving.hpp, qat.cpp, qat.hpp, ter.cpp, vector2d.cpp,
+	  vector2d.hpp: premiere implementation de la periodicite + mise a
+	  jour ChangeLog et README
+
+2008-06-17 08:03  dcoeurjo
+
+	* CMakeLists.txt, TargetDoxygenDoc.cmake, doc, docs, docs/TER,
+	  docs/TER/Rapport_TER_PETITJEAN_HAYETTE.pdf,
+	  docs/TER/soutenance.pdf, doxy.config.in: CPack and Doxygen doc
+
+2008-06-16 15:19  dcoeurjo
+
+	* CMakeLists.txt: Bugfix in Cmake files
+
+2008-06-16 14:54  dcoeurjo
+
+	* CMakeLists.txt, FindMagick.cmake: Bugfix in Cmake files
+
+2008-06-16 10:48  dcoeurjo
+
+	* CMakeLists.txt, ChangeLog, FindMagick.cmake, Makefile,
+	  Makefile_LINUX_OLD: Cmake build process
+
+2008-06-16 10:43  vblot
+
+	* image.cpp, image.hpp, qat.cpp, qat.hpp, ter.cpp: resolution du
+	  probleme des coordonnees (l'origine etait en haut, et l'image
+	  d'arrivee etait donc faussee)
+
+2008-06-13 15:43  vblot
+
+	* qat.cpp, qat.hpp: preparation pour l'implementation de la
+	  periodicite
+
+2008-06-13 14:54  vblot
+
+	* mathematic.cpp, mathematic.hpp, paving.cpp, paving.hpp,
+	  point.cpp, point.hpp, qat.cpp, qat.hpp, ter.cpp: revision de la
+	  version naive de determination des paves
+	  (determinePavingByBoundingRect) pour n'utiliser que des entiers
+
+2008-06-13 08:31  vblot
+
+	* mathematic.cpp, mathematic.h, mathematic.hpp, matrix2x2.cpp,
+	  matrix2x2.h, matrix2x2.hpp, paving.cpp, paving.h, paving.hpp,
+	  point.h, point.hpp, qat.cpp, qat.h, qat.hpp, ter.cpp,
+	  vector2d.cpp, vector2d.h, vector2d.hpp: headers renommes a la
+	  sauce C++
+
+2008-06-12 13:54  vblot
+
+	* README: mise a jour du README
+
+2008-06-12 13:51  vblot
+
+	* entrees, entrees/1_Contractante, entrees/2_Dilatante,
+	  entrees/3_Inversible,
+	  entrees/4_Rotation_pythagoricienne_2pisur33,
+	  entrees/5_Equivolume_rotation_53,1, entrees/6_Bug_points_noirs,
+	  ter.cpp: gestion des entrees/sorties et ajout des fichiers
+	  d'entree dans un repertoire a part
+
+2008-06-12 13:31  vblot
+
+	* bmp.h, color.cpp, color.h, image.cpp, image.h, lodepng.cpp,
+	  lodepng.h, painter.cpp, painter.h, paving.png, pen.cpp, pen.h,
+	  pixel.cpp, pixel.h: suppression des fichiers devenus inutiles
+
+2008-06-12 13:26  vblot
+
+	* Makefile, mathematic.cpp, mathematic.h, matrix2x2.cpp,
+	  matrix2x2.h, paving.cpp, paving.h, paving.png, point.h, qat.cpp,
+	  qat.h, ter.cpp, vector2d.cpp, vector2d.h: Reindentation +
+	  implementation avec la librairie magick++
+
+2008-06-10 14:41  vblot
+
+	* tags/0.1: Initial Repo tag - RELEASE 0.1
+
+2008-06-10 14:40  vblot
+
+	* tags: Initial Repo tag - RELEASE 0.1
+
+2008-06-09 07:53  dcoeurjo
+
+	* AUTHORS, ChangeLog: Authors and Changelog added
+
+2008-06-09 07:49  dcoeurjo
+
+	* Makefile, README, bmp.h, color.cpp, color.h, doc,
+	  doc/Rapport_TER_PETITJEAN_HAYETTE.pdf, doc/soutenance.pdf,
+	  fleur.png, image.cpp, image.h, lodepng.cpp, lodepng.h,
+	  mathematic.cpp, mathematic.h, matrix2x2.cpp, matrix2x2.h,
+	  painter.cpp, painter.h, paving.cpp, paving.h, paving.png,
+	  pen.cpp, pen.h, pixel.cpp, pixel.h, point.h, qat.cpp, qat.h,
+	  ter.cpp, vector2d.cpp, vector2d.h: Inital Code provided by
+	  Hayette & Petitjean
+
+2008-06-09 07:48  dcoeurjo
+
+	* .: AQA Repo
+
